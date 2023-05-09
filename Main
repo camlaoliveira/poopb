@@ -1,0 +1,55 @@
+import java.util.*;
+
+public class Main2 {
+
+    public static void main(String[] args) {
+
+        var opcao = 0;
+        Scanner opc = new Scanner(System.in);
+
+        System.out.println("1 - Informações sobre produto");
+        System.out.println("2 - Informações sobre o fornecedor");
+        System.out.println("3 - Informações sobre o estoque");
+        System.out.println("0 - Sair.");
+        opcao = Integer.parseInt(opc.nextLine());
+
+        while (opcao != 0) {
+            if (opcao == 1) {
+                Scanner opc = new Scanner(System.in);
+
+                System.out.println("1 - Cadastrar produto");
+                System.out.println("2 - Buscar produto por nome");
+                System.out.println("3 - Listar produtos");
+                System.out.println("0 - Deletar produto.");
+                opcao = Integer.parseInt(opc.nextLine());
+                
+                /* Aluno2 alunocadastrar = new Aluno2();
+                cadastrarAluno(alunocadastrar, head);
+                alunocadastrar = null;
+                opcao = -1;
+            }
+            if (opcao == 2) {
+                System.out.println("******* IMPRIMINDO A LISTA *********");
+                Aluno2 percorrer = new Aluno2();
+                percorrer = head.proximo;
+                imprimirLista(percorrer);
+                opcao = -1;
+            }
+
+            if (opcao == 3) {
+                System.out.println("******* REMOVENDO ALUNO *********");
+                System.out.println("Digite o nome do aluno que deseja remover:");
+                String nome = opc.nextLine();
+                boolean removido = removerAluno(nome, head);
+                if (removido) {
+                    System.out.println("Aluno removido com sucesso!");
+                } else {
+                    System.out.println("Aluno não cadastrado!");
+                }
+                opcao = -1;
+            }
+        }
+    }
+}
+
+
