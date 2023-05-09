@@ -1,0 +1,149 @@
+    //atributos
+
+    public int id;
+    public String nome;
+    public int cpnj;
+    public Srting logradouro;
+    public String bairro;
+    public String cidade;
+    public String estado;
+    public int cep;
+    public int cpf;
+    public int rg;
+    public int telefone;
+    public String emial;
+    public int datacad;
+    public int datanas;
+
+    //contrutor
+
+    public Fornecedor(int id, String nome, int cpnj, Srting logradouro, String bairro, String cidade, String estado, int cep, int cpf, int rg, int telefone, String emial, int datacad, int datanas) {
+        this.id = id;
+        this.nome = nome;
+        this.cpnj = cpnj;
+        this.logradouro = logradouro;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.estado = estado;
+        this.cep = cep;
+        this.cpf = cpf;
+        this.rg = rg;
+        this.telefone = telefone;
+        this.emial = emial;
+        this.datacad = datacad;
+        this.datanas = datanas;
+    }
+
+    //metodos
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getCpnj() {
+        return cpnj;
+    }
+
+    public void setCpnj(int cpnj) {
+        this.cpnj = cpnj;
+    }
+
+    public Srting getLogradouro() {
+        return logradouro;
+    }
+
+    public void setLogradouro(Srting logradouro) {
+        this.logradouro = logradouro;
+    }
+
+    public String getBairro() {
+        return bairro;
+    }
+
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public int getCep() {
+        return cep;
+    }
+
+    public void setCep(int cep) {
+        this.cep = cep;
+    }
+
+    public int getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(int cpf) {
+        this.cpf = cpf;
+    }
+
+    public int getRg() {
+        return rg;
+    }
+
+    public void setRg(int rg) {
+        this.rg = rg;
+    }
+
+    public int getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(int telefone) {
+        this.telefone = telefone;
+    }
+
+    public String getEmial() {
+        return emial;
+    }
+
+    public void setEmial(String emial) {
+        this.emial = emial;
+    }
+
+    public int getDatacad() {
+        return datacad;
+    }
+
+    public void setDatacad(int datacad) {
+        this.datacad = datacad;
+    }
+
+    public int getDatanas() {
+        return datanas;
+    }
+
+    public void setDatanas(int datanas) {
+        this.datanas = datanas;
+    }
